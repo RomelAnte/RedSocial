@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.portada{
+    width: 100%;
+    height: 37.76%;
+    background-color: #333639;
+}
+.foto_perfil{
+    position: absolute;
+    top:20%;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+button{
+    display: block;
+    position: absolute;
+    top: 30vh;
+    left: 87vw;
+    color:#fff;
+    background-color: transparent;
+    padding: 10px;
+    width: 150px;
+    border:none;
+}
+button:hover{
+    background-color: #1B1A1B;
+    
+}
+button svg{
+    margin-right: 10px;
+}
+.estadistica{
+    height: 15vh;
+    background-color: #fff;
+}
+.estadistica__{
+    position: relative;    
+    left: 26%;
+    width: 74%;
+}
+h1{
+    display: inline;
+}
+.inf{
+    display: flex;
+}
+.informacion{
+    width: 36.36%;
+    height: 100vh;
+    background-color: #E7ECF0;
+}
+.informacion__{
+    margin: 25px;
+    padding: 10px;
+}
+.publicaciones{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+.button{
+    top:500px;
+    left:10px;
+    height: 50px;
+}
+#publicar{
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #000;
+}
+#mensaje{
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #000;
+}

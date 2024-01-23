@@ -39,7 +39,7 @@ $_POST = LimpiarEntradas($_POST);
             $Insertarstmt = $conn->prepare ("INSERT INTO usuarios SET nombres=:nombres, apellidos=:apellidos, correo=:correo, 
             fecha_nacimiento=:fecha_nacimiento, cedula=:cedula, cantidad_hijos=:cantidad_hijos, 
             estado_civil=:estado_civil, nombre_usuario=:nombre_usuario, clave=:clave");
-
+            
             
             $Insertarstmt -> bindParam(':nombres', $_POST['nombres']);
             $Insertarstmt -> bindParam(':apellidos', $_POST['apellidos']);

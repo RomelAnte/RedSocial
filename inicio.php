@@ -12,18 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="contenedor">
-            <h1 class="logo">RedSocial</h1>
-            <nav class="navegacion">
-                <a class="navegacion__enlace" href="todosarticulos.php">Articulos</a>
-                <a class="navegacion__enlace" href="mensajesrecibidos.php">Mensajes</a>
-                <a class="navegacion__enlace" href="perfil.php">Perfil</a>
-                <a class="navegacion__enlace" href="amigos.php">Amigos</a>
-                <a class="navegacion__enlace--sesion" href="cerrarsesion.php">Cerrar Sesión</a>
-            </nav>
-        </div>
-    </header>
+    <?php include('menu-bar.php');?>
     <div class="contenedor">
         <main>
             <section class="perfil-section">

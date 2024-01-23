@@ -1,7 +1,7 @@
 function mostrarImagen(input) {
     var vistaPrevia = document.querySelector(".portada");
     var estadistica = document.querySelector(".estadistica")
-    var foto_perfil = document.querySelector(".foto_perfil")
+    var subirImagen = document.querySelector(".subirImagen")
     vistaPrevia.innerHTML = '';
     if (input.files && input.files[0]) {
         var lector = new FileReader();
@@ -16,4 +16,6 @@ function mostrarImagen(input) {
         lector.readAsDataURL(input.files[0]);
     }
     estadistica.style.position = "relative";
+    subirImagen.style.position = "relative";
+
 }
