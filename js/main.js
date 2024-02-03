@@ -15,7 +15,5 @@ function mostrarImagen(input) {
         };
         lector.readAsDataURL(input.files[0]);
     }
-    estadistica.style.position = "relative";
-    subirImagen.style.position = "relative";
 
 }
